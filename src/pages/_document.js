@@ -1,6 +1,5 @@
 import { Children } from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { createEmotionCache } from "@/@theme/cache";
 import {
   DocumentHeadTags,
   documentGetInitialProps,

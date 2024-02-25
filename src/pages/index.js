@@ -30,7 +30,11 @@ export default function Home() {
   };
 
   return (
-    <>
+    <Box
+      sx={{
+        m: 2,
+      }}
+    >
       <Heading>Catch your next opportunity</Heading>
       <Box sx={{ width: "100%" }}>
         <Tabs
@@ -44,6 +48,6 @@ export default function Home() {
 
         <PanelContainer>{component[value]}</PanelContainer>
       </Box>
-    </>
+    </Box>
   );
 }

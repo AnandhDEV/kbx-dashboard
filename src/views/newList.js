@@ -25,18 +25,16 @@ export default function NewList() {
   }, []);
 
   const columns = [
-    { field: "id", headerName: "ID", width: 200 },
+    { field: "id", headerName: "ID", minWidth: 200 },
     {
+      minWidth: 200,
       field: "firstName",
       headerName: "First Name",
       flex: 1,
     },
+    { minWidth: 200, field: "lastName", headerName: "Last Name", flex: 1 },
     {
-      field: "lastName",
-      headerName: "Last Name",
-      flex: 1,
-    },
-    {
+      minWidth: 200,
       field: "phone",
       headerName: "Phone",
       type: "number",

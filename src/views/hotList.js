@@ -25,25 +25,25 @@ export default function HotList() {
   }, []);
 
   const columns = [
-    { field: "id", headerName: "ID", flex: 1 },
+    { field: "id", headerName: "ID", flex: 1, minWidth: 200 },
     {
       field: "coinName",
       headerName: "Pair",
       flex: 1,
+      minWidth: 200,
     },
     {
       field: "price",
       headerName: "Price",
-      editable: true,
       flex: 1,
+      minWidth: 200,
     },
     {
       field: "trend",
       headerName: "Trend",
       type: "number",
-      width: 110,
-      editable: true,
       flex: 1,
+      minWidth: 200,
     },
   ];
 
